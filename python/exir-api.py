@@ -81,4 +81,5 @@ def main():
     order = create_order(symbol, side, size, price, type)
     print('Order response:', order)
 
-main()
+if __name__ == "__main__":
+    main()
